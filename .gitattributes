@@ -2,3 +2,4 @@
 * text=Auto
 *linguist-vendored
 *.css linguist-vendored=python
+*.html linguist-vendored=python
