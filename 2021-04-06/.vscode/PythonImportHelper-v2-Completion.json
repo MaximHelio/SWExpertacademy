@@ -1,0 +1,137 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "heapq",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "heapq",
+        "description": "heapq",
+        "detail": "heapq",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdin",
+        "kind": 5,
+        "importPath": "1232",
+        "description": "1232",
+        "peekOfCode": "sys.stdin = open('input (1).txt', 'r')\nT= 10\nfor tc in range(1, T+1):\n    N = int(input()) # 5\n# def dfs(n):\n#     global cnt\n#     # 배열크기 넘어가지 않도록\n#     if n <= N:\n#         # 좌측 노드\n#         dfs(n * 2)",
+        "detail": "1232",
+        "documentation": {}
+    },
+    {
+        "label": "tr",
+        "kind": 2,
+        "importPath": "5174",
+        "description": "5174",
+        "peekOfCode": "def tr(root):\n    global cnt\n    if root:\n        cnt += 1\n        tr(tree[root][0])\n        tr(tree[root][1])\nT = int(input())\nfor tc in range(1, T+1):\n    E, N = map(int, input().split())\n    lst = list(map(int, input().split()))",
+        "detail": "5174",
+        "documentation": {}
+    },
+    {
+        "label": "#sys.stdin",
+        "kind": 5,
+        "importPath": "5174",
+        "description": "5174",
+        "peekOfCode": "#sys.stdin = open('sample_input (6).txt', 'r')\ndef tr(root):\n    global cnt\n    if root:\n        cnt += 1\n        tr(tree[root][0])\n        tr(tree[root][1])\nT = int(input())\nfor tc in range(1, T+1):\n    E, N = map(int, input().split())",
+        "detail": "5174",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "5174",
+        "description": "5174",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, T+1):\n    E, N = map(int, input().split())\n    lst = list(map(int, input().split()))\n    tree = [[0, 0] for _ in range(E+2)]\n    for idx in range(0, len(lst), 2):\n        p = lst[idx]\n        c = lst[idx+1]\n        if tree[p][0] == 0:\n            tree[p][0] = c",
+        "detail": "5174",
+        "documentation": {}
+    },
+    {
+        "label": "Tree",
+        "kind": 6,
+        "importPath": "5177",
+        "description": "5177",
+        "peekOfCode": "class Tree:\n    def __init__(self):\n        self.lst = [0]\n    def sort(self, num):\n        if num >= 2:\n            if self.lst[num] < self.lst[num // 2]:\n                # 자리 바꾸기\n                self.lst[num], self.lst[num // 2] = self.lst[num // 2], self.lst[num]\n                self.sort(num // 2)  # 계속 정렬\n    def append(self, data):",
+        "detail": "5177",
+        "documentation": {}
+    },
+    {
+        "label": "Tree",
+        "kind": 6,
+        "importPath": "5177",
+        "description": "5177",
+        "peekOfCode": "class Tree:\n    def __init__(self):\n        self.lst = [0]\n    def sort(self, num):\n        if num >= 2:\n            if self.lst[num] < self.lst[num // 2]:\n                # 자리 바꾸기\n                self.lst[num], self.lst[num // 2] = self.lst[num // 2], self.lst[num]\n                self.sort(num // 2)  # 계속 정렬\n    def append(self, data):",
+        "detail": "5177",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "5177",
+        "description": "5177",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, 1 + T):\n    N = int(input())\n    tree = Tree()\n    for i in map(int, input().split()):\n        tree.append(i)\n    print('#%d %d' %(tc, tree.my_result()))\n# lst = [....]\n# HEAP = [0]\n# for data in lst:",
+        "detail": "5177",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdin",
+        "kind": 5,
+        "importPath": "5177",
+        "description": "5177",
+        "peekOfCode": "sys.stdin = open('sample_input (1).txt', 'r')\nlst = []\nwhile True:\n    n = int(input())\n    if n == -1:\n        break\n    if n == 0:\n        if len(lst) == 0:\n            print(-1)\n        else:",
+        "detail": "5177",
+        "documentation": {}
+    },
+    {
+        "label": "lst",
+        "kind": 5,
+        "importPath": "5177",
+        "description": "5177",
+        "peekOfCode": "lst = []\nwhile True:\n    n = int(input())\n    if n == -1:\n        break\n    if n == 0:\n        if len(lst) == 0:\n            print(-1)\n        else:\n        print(heapq.heappop(lst))",
+        "detail": "5177",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "5177",
+        "description": "5177",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, 1 + T):\n    N = int(input())\n    tree = Tree()\n    for i in map(int, input().split()):\n        tree.append(i)\n    print('#%d %d' %(tc, tree.my_result()))",
+        "detail": "5177",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdin",
+        "kind": 5,
+        "importPath": "5178",
+        "description": "5178",
+        "peekOfCode": "sys.stdin = open('sample_input (1).txt', 'r')\n# def f(root):\n#     if root:\n#         lv = f(root의 왼쪽)\n#         rv = f(root의 오른쪽)\n#         TREE[root] = lv + rv\n#         return lv + rv\nT = int(input())\nN, M, L = map(int, input().split())\nfor _ in range(M):",
+        "detail": "5178",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "5178",
+        "description": "5178",
+        "peekOfCode": "T = int(input())\nN, M, L = map(int, input().split())\nfor _ in range(M):\n    tmp = map(int, input().split())\n    tree = [[] for _ in range(N)]",
+        "detail": "5178",
+        "documentation": {}
+    },
+    {
+        "label": "print_hi",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def print_hi(name):\n    # Use a breakpoint in the code line below to debug your script.\n    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.\n# Press the green button in the gutter to run the script.\nif __name__ == '__main__':\n    print_hi('PyCharm')\n# See PyCharm help at https://www.jetbrains.com/help/pycharm/",
+        "detail": "main",
+        "documentation": {}
+    }
+]

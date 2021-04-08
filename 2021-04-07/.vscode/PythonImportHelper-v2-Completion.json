@@ -1,0 +1,29 @@
+[
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "10804",
+        "description": "10804",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, T+1):\n    word = input()\n    answer = str()\n    word_reverse = word[::-1]\n    for letter in word_reverse:\n        if letter == 'b':\n            answer += 'd'\n        elif letter == 'd':\n            answer += 'b'",
+        "detail": "10804",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "practice",
+        "description": "practice",
+        "peekOfCode": "letter = \"s\"\nletter = \"h\"\nprint(letter)\n# word = \"string\"\n# for letter in word:\n#     print(letter)\n#     if letter == \"s\":\n#         letter = \"h\"\n# print(word)",
+        "detail": "practice",
+        "documentation": {}
+    },
+    {
+        "label": "letter",
+        "kind": 5,
+        "importPath": "practice",
+        "description": "practice",
+        "peekOfCode": "letter = \"h\"\nprint(letter)\n# word = \"string\"\n# for letter in word:\n#     print(letter)\n#     if letter == \"s\":\n#         letter = \"h\"\n# print(word)",
+        "detail": "practice",
+        "documentation": {}
+    }
+]
