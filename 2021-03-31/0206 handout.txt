@@ -1,0 +1,13 @@
+7 >= a+b+c+d
+result = max(13a + 8b+ 6c + 12d)
+		       result
+(a, b, c, d) = (1, 0, 0, 0)  13    
+	     (0, 0, 0, 1)  12
+	     (0, 1, 1, 0)  14
+
+2^4
+
+https://www.acmicpc.net/problem/12865
+백트랙킹
+https://www.acmicpc.net/problem/2750
+선택,삽입,버블 정렬
