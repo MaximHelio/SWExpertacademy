@@ -1,0 +1,74 @@
+[
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "sys.stdin",
+        "kind": 5,
+        "importPath": "12004_구구단1",
+        "description": "12004_구구단1",
+        "peekOfCode": "sys.stdin = open(\"sample_input (7).txt\")\nT = int(input())\nfor tc in range(1, T+1):\n    N = int(input())\n    arr = []\n    for i in range(1, 10):\n        for j in range(1, 10):\n            arr.append(i*j)\n    if N in arr: result = \"Yes\"\n    else: result = \"No\"",
+        "detail": "12004_구구단1",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "12004_구구단1",
+        "description": "12004_구구단1",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, T+1):\n    N = int(input())\n    arr = []\n    for i in range(1, 10):\n        for j in range(1, 10):\n            arr.append(i*j)\n    if N in arr: result = \"Yes\"\n    else: result = \"No\"\n    print(\"#%d %s\" %(tc, result))",
+        "detail": "12004_구구단1",
+        "documentation": {}
+    },
+    {
+        "label": "N",
+        "kind": 5,
+        "importPath": "2063_중간값 찾기",
+        "description": "2063_중간값 찾기",
+        "peekOfCode": "N = int(input())\narr = list(map(int, input().split()))\narr.sort()",
+        "detail": "2063_중간값 찾기",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "2063_중간값 찾기",
+        "description": "2063_중간값 찾기",
+        "peekOfCode": "arr = list(map(int, input().split()))\narr.sort()",
+        "detail": "2063_중간값 찾기",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "2068_최대수 구하기",
+        "description": "2068_최대수 구하기",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, T+1):\n    arr = list(map(int, input().split()))\n    result = max(arr)\n    print(\"#%d %d\" %(tc, result))",
+        "detail": "2068_최대수 구하기",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "2070_큰놈. 작은놈. 같은놈",
+        "description": "2070_큰놈. 작은놈. 같은놈",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, T+1):\n    num1, num2 = map(int, input().split())\n    if num1 == num2: result = \"=\"\n    elif num1 > num2: result = \">\"\n    else: result = \"<\"\n    print(\"#%d %s\" %(tc, result))",
+        "detail": "2070_큰놈. 작은놈. 같은놈",
+        "documentation": {}
+    },
+    {
+        "label": "T",
+        "kind": 5,
+        "importPath": "2071_평균값 구하기",
+        "description": "2071_평균값 구하기",
+        "peekOfCode": "T = int(input())\nfor tc in range(1, T+1):\n    arr = list(map(int, input().split()))\n    num = len(arr)\n    avg = round(sum(arr) / num)\n    print(\"#%d %d\" %(tc, avg))",
+        "detail": "2071_평균값 구하기",
+        "documentation": {}
+    }
+]
